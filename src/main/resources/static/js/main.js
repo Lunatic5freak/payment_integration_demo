@@ -23,7 +23,7 @@ const initiate_payment=()=>{
 								console.log(response.razorpay_payment_id)
 								console.log(response.razorpay_order_id);
 								console.log(response.razorpay_signature);
-								window.location='http://localhost:7070/responseorder'
+								window.location='https://grippaymentapp.herokuapp.com/responseorder'
 								// $.ajax({url:"/responseorder",
 								// 	type:'get'
 								// })
